@@ -35,6 +35,14 @@
             System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.shapeContainer1 = new Microsoft.VisualBasic.PowerPacks.ShapeContainer();
+            this.lineShape64 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.lineShape63 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.lineShape62 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.lineShape42 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.lineShape66 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.lineShape67 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.lineShape68 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.lineShape69 = new Microsoft.VisualBasic.PowerPacks.LineShape();
             this.lineShape61 = new Microsoft.VisualBasic.PowerPacks.LineShape();
             this.lineShape60 = new Microsoft.VisualBasic.PowerPacks.LineShape();
             this.lineShape59 = new Microsoft.VisualBasic.PowerPacks.LineShape();
@@ -125,6 +133,14 @@
             this.shapeContainer1.Margin = new System.Windows.Forms.Padding(0);
             this.shapeContainer1.Name = "shapeContainer1";
             this.shapeContainer1.Shapes.AddRange(new Microsoft.VisualBasic.PowerPacks.Shape[] {
+            this.lineShape64,
+            this.lineShape63,
+            this.lineShape62,
+            this.lineShape42,
+            this.lineShape66,
+            this.lineShape67,
+            this.lineShape68,
+            this.lineShape69,
             this.lineShape61,
             this.lineShape60,
             this.lineShape59,
@@ -200,16 +216,88 @@
             this.ovalShape1,
             this.lineShape3,
             this.lineShape2});
-            this.shapeContainer1.Size = new System.Drawing.Size(1155, 815);
+            this.shapeContainer1.Size = new System.Drawing.Size(1155, 749);
             this.shapeContainer1.TabIndex = 0;
             this.shapeContainer1.TabStop = false;
+            // 
+            // lineShape64
+            // 
+            this.lineShape64.BorderWidth = 2;
+            this.lineShape64.Name = "lineShape64";
+            this.lineShape64.X1 = 859;
+            this.lineShape64.X2 = 859;
+            this.lineShape64.Y1 = 301;
+            this.lineShape64.Y2 = 316;
+            // 
+            // lineShape63
+            // 
+            this.lineShape63.BorderWidth = 2;
+            this.lineShape63.Name = "lineShape63";
+            this.lineShape63.X1 = 849;
+            this.lineShape63.X2 = 869;
+            this.lineShape63.Y1 = 301;
+            this.lineShape63.Y2 = 301;
+            // 
+            // lineShape62
+            // 
+            this.lineShape62.BorderWidth = 2;
+            this.lineShape62.Name = "lineShape62";
+            this.lineShape62.X1 = 860;
+            this.lineShape62.X2 = 870;
+            this.lineShape62.Y1 = 283;
+            this.lineShape62.Y2 = 300;
+            // 
+            // lineShape42
+            // 
+            this.lineShape42.BorderWidth = 2;
+            this.lineShape42.Name = "lineShape42";
+            this.lineShape42.X1 = 859;
+            this.lineShape42.X2 = 849;
+            this.lineShape42.Y1 = 283;
+            this.lineShape42.Y2 = 301;
+            // 
+            // lineShape66
+            // 
+            this.lineShape66.BorderWidth = 2;
+            this.lineShape66.Name = "lineShape66";
+            this.lineShape66.X1 = 100;
+            this.lineShape66.X2 = 100;
+            this.lineShape66.Y1 = 302;
+            this.lineShape66.Y2 = 317;
+            // 
+            // lineShape67
+            // 
+            this.lineShape67.BorderWidth = 2;
+            this.lineShape67.Name = "lineShape67";
+            this.lineShape67.X1 = 90;
+            this.lineShape67.X2 = 110;
+            this.lineShape67.Y1 = 302;
+            this.lineShape67.Y2 = 302;
+            // 
+            // lineShape68
+            // 
+            this.lineShape68.BorderWidth = 2;
+            this.lineShape68.Name = "lineShape68";
+            this.lineShape68.X1 = 101;
+            this.lineShape68.X2 = 111;
+            this.lineShape68.Y1 = 284;
+            this.lineShape68.Y2 = 301;
+            // 
+            // lineShape69
+            // 
+            this.lineShape69.BorderWidth = 2;
+            this.lineShape69.Name = "lineShape69";
+            this.lineShape69.X1 = 100;
+            this.lineShape69.X2 = 90;
+            this.lineShape69.Y1 = 284;
+            this.lineShape69.Y2 = 302;
             // 
             // lineShape61
             // 
             this.lineShape61.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.lineShape61.BorderWidth = 4;
             this.lineShape61.Name = "lineShape61";
-            this.lineShape61.X1 = 89;
+            this.lineShape61.X1 = 76;
             this.lineShape61.X2 = 1051;
             this.lineShape61.Y1 = 273;
             this.lineShape61.Y2 = 273;
@@ -820,10 +908,10 @@
             chartArea2.AxisX2.Interval = 2000D;
             chartArea2.AxisX2.MajorGrid.Interval = 0D;
             chartArea2.AxisX2.MajorTickMark.Interval = 500D;
-            chartArea2.AxisY.Interval = 20D;
-            chartArea2.AxisY.MajorGrid.Interval = 20D;
+            chartArea2.AxisY.Interval = 50D;
+            chartArea2.AxisY.MajorGrid.Interval = 50D;
             chartArea2.AxisY.MajorGrid.LineWidth = 2;
-            chartArea2.AxisY.Maximum = 160D;
+            chartArea2.AxisY.Maximum = 300D;
             chartArea2.AxisY.MinorGrid.Enabled = true;
             chartArea2.AxisY.MinorTickMark.LineWidth = 2;
             chartArea2.AxisY.MinorTickMark.Size = 2F;
@@ -886,7 +974,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1155, 815);
+            this.ClientSize = new System.Drawing.Size(1155, 749);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -983,6 +1071,14 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape64;
+        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape63;
+        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape62;
+        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape42;
+        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape66;
+        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape67;
+        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape68;
+        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape69;
     }
 }
 
